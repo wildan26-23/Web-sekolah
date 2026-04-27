@@ -1,0 +1,45 @@
+        .hero {
+            background-image : url("smk.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            opacity: 100vh;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 500px;
+        }
+
+        .foto {
+            max-width: 100px;
+            height:auto;
+        }
+        :root {
+          --bg-dark-blue: #1e3799;
+          --light-text: #ecf0f1;
+          --accent-color: #3498db;
+          --primary-blue: #2c3e50;
+          --text-color: #34495e;
+          --progress-fill-color: #1e2a38;
+          --progress-bar-bg: #ccc;
+          --footer-dark-blue: #003366
+        }
+        .mentor-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+        .mentor-card {
+            border: none;
+            border-radius: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .mentor-card img {
+            width: 100%;
+            height: auto;
+        }
+        .mentor-social i {
+            font-size: 18px;
+            margin: 0 8px;
+            color: #6c757d;
+        }
